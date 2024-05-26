@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login.css?v=<?php echo time(); ?>">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="login" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+            <form action="" method="post">
+                <h1>Login</h1>
+                <hr>
+                <p>Car Rental</p>
+                <label for="">Email</label>
+                <input type="text" name="email"
+                placeholder="example@gmail.com">
+                <label for="">Password</label>
+                <input type="password" name="password"
+                placeholder="Password">
+                <button type="submit" class="btn" data-aos="fade-up" data-aos-duration="2000">Login</button>
+                <p data-aos="fade-up" data-aos-duration="2000">
+                    <a href="signup.html">don't have an account?</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
